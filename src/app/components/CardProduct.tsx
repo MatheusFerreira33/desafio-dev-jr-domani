@@ -1,6 +1,17 @@
 import { useCart } from '../providers/CartContext';
 
-export default function CardProduct({ product }) {
+export interface Product {
+  product: {
+    id: number;
+    title: string;
+    price: number;
+    description: string;
+    category: string;
+    image: string;  
+  }
+}
+
+export default function CardProduct({ product }:Product) {
   const { addToCart } = useCart();
 
   return (

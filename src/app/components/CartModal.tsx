@@ -18,7 +18,7 @@ export default function CartModal({ onClose }: { onClose: () => void }) {
                 <li key={product.id} className="flex justify-between items-center">
                   <div>
                     <p className="font-medium">{product.title}</p>
-                    <p className="text-sm text-gray-600">${product.price}</p>
+                    <p className="text-sm text-gray-600">R$ {product.price}</p>
                   </div>
                   <button
                     onClick={() => removeFromCart(product.id)}
@@ -32,7 +32,7 @@ export default function CartModal({ onClose }: { onClose: () => void }) {
 
             <div className="mt-4 flex justify-between items-center">
               <strong>Total:</strong>
-              <span className="font-bold text-blue-600">${total.toFixed(2)}</span>
+              <span className="font-bold text-blue-600">R$ {total.toFixed(2)}</span>
             </div>
           </>
         )}
