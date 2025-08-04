@@ -32,8 +32,8 @@ Uma aplicação web responsiva de catálogo de produtos, que permite buscar, vis
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/MatheusFerreira33/desafio-dev-jr-domani.git
+cd desafio-dev-jr-domani
 ```
 
 2. **Instale as dependências:**
