@@ -27,6 +27,10 @@ Uma aplicação web responsiva de catálogo de produtos, que permite buscar, vis
 
 ---
 
+🔗 Acesso Rápido
+Se preferir apenas visualizar o projeto funcionando, você pode acessá-lo diretamente pelo Vercel no link abaixo:
+https://desafio-dev-jr-domani-vmz3.vercel.app
+
 ## ⚙️ Instalação e Uso
 
 1. **Clone o repositório:**
