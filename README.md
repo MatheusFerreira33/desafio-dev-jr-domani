@@ -33,6 +33,14 @@ https://desafio-dev-jr-domani-vmz3.vercel.app
 
 ## ⚙️ Instalação e Uso
 
+## ⚠️ Requisitos de Ambiente
+
+Este projeto utiliza o **Next.js 15**, que exige:
+
+- **Node.js** na versão `^18.18.0`, `^19.8.0` ou `>=20.0.0`
+
+Se estiver com uma versão inferior (ex: 18.16.0), será necessário **atualizar o Node.js** para conseguir rodar o projeto localmente.
+
 1. **Clone o repositório:**
 
 ```bash
